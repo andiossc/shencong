@@ -38,6 +38,10 @@ nav{
     height: 730px;
 }
 
+.article #banner{
+    height: 300px;
+}
+
 nav ul{
     list-style: none;
     margin: 0;
@@ -112,8 +116,16 @@ nav .menu-content{
     color: #ffffff;
     animation: firstEntry 1s;
 }
+.article #banner .inner{
+    top: 30px;
+}
+
 #banner .inner h1{
     margin: 0;
+}
+
+.article h1{
+    border: none;
 }
 
 .active{
@@ -438,6 +450,24 @@ footer{
     bottom: 30px;
     right: 30px;
     border: 1px solid #888;
+}
+
+.article .content{
+    background: #fefefe;
+}
+.content_wrapper{
+    width: 1080px;
+    margin: 0 auto;
+}
+.article-info{
+    font-size: 14px;
+    color: #888;
+    padding: 15px 0;
+}
+.article{
+    font-size: 18px;
+    line-height: 2;
+    padding: 10px 0;
 }
 
 

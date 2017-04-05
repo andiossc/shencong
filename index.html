@@ -10,7 +10,7 @@
 <div class="main-wrapper">
     <header>
         <nav>
-            <div class="logo"><a href="#">沈&nbsp;聪</a></div>
+            <div class="logo"><a href="index.html">沈&nbsp;聪</a></div>
             <div class="menu">
                 <span>MENU</span>
                 <span class="menu-icon" id="menuIcon"></span>
@@ -18,8 +18,8 @@
             <div class="menu-content" id="menuContent">
                 <span class="menu-close clearfix" id="menuClose"></span>
                 <ul>
-                    <li><a href="#">首页</a></li>
-                    <li><a href="#">学习之路</a></li>
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="article.html">学习之路</a></li>
                     <li><a href="#">工作</a></li>
                     <li><a href="#">家乡</a></li>
                 </ul>
@@ -30,20 +30,23 @@
                 <h1>沈&nbsp;聪</h1>
 
                 <p class="sub-heading">不会写HTML的Android程序员</br>不是好的前端工程师</p>
-                <button>了解我</button>
+                <button id="button">了解我</button>
                 <div class="more">
-                    <span>更多</span>
-                    <span class="more-icon"></span>
+                    <a href="#1F">
+                        <span>更多</span>
+                        <span class="more-icon"></span>
+                    </a>
                 </div>
             </div>
         </div>
     </header>
     <!--header结束-->
-    <div class="content">
+    <div class="content" id="1F">
         <section class="green-section">
             <div class="wrapper">
                 <div>
-                    <h2>相关技术</h2>
+                    <h2 class="heading">相关技术</h2>
+
                     <div class="hr"></div>
                     <p class="sub-heading">对Android开发有较深入的了解,从事相关工作已有大约2年时间<br>
                         目前在深圳一家公司从事Android 蓝牙通信相关项目<br>
@@ -154,7 +157,8 @@
     <!--内容结束-->
     <footer>
         <ul class="share-group">
-            <li><a href="http://weibo.com/u/3568273292?topnav=1&wvr=6&topsug=1&is_hot=1" class="weibo" target="_blank"></a> </li>
+            <li><a href="http://weibo.com/u/3568273292?topnav=1&wvr=6&topsug=1&is_hot=1" class="weibo"
+                   target="_blank"></a></li>
             <li><a href="#" class="gmail" target="_blank" title="s1491161426@gmail.com"></a></li>
             <li><a href="#" class="QQ" target="_blank" title="QQ空间"></a></li>
             <li><a href="https://github.com/andiossc" class="github" target="_blank" title="我的GitHub"></a></li>
@@ -166,6 +170,17 @@
     </footer>
     <!--页脚结束-->
 </div>
+<div class="mask"></div>
+<div id="sidebar">
+    <ul>
+        <li><a href="index.html">首页</a></li>
+        <li><a href="article.html">学习之路</a></li>
+        <li><a href="#">工作</a></li>
+        <li><a href="#">家乡</a></li>
+    </ul>
+</div>
+<button class="back-to-top">返回顶部</button>
+<script src="js/jquery-3.2.0.min.js" type="text/javascript"></script>
 <script src="js/main.js" type="text/javascript"></script>
 </body>
 </html>
