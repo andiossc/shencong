@@ -262,6 +262,10 @@ button{
     width: 55%;
 }
 
+.gray-section p{
+    text-indent: 2em;
+}
+
 .article-preview > div{
     float: left;
     font-size: 0;

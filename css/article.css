@@ -303,6 +303,9 @@ p{
     font-size: 18px;
     letter-spacing: 1px;
 }
+.content_wrapper p{
+    text-indent: 2em;
+}
 .text-section > *{
     width: 90%;
 }
@@ -467,7 +470,7 @@ footer{
 .article{
     font-size: 18px;
     line-height: 2;
-    padding: 10px 0;
+    padding:  0;
 }
 
 
